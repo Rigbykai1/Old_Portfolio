@@ -1,6 +1,6 @@
 import { useState } from "react";
-import MobileBar from "./SideBar/MobileBar";
-import BigScreenBar from "./SideBar/BigScreenBar";
+import MobileBar from "./MobileBar";
+import BigScreenBar from "./BigScreenBar";
 
 const SideBar = () => {
     const [screenWidth, setScreenWidth] = useState(window.screen.width)

@@ -1,5 +1,6 @@
 import { SiCplusplus } from "react-icons/si";
-import { FaGitAlt, FaCss3Alt, FaNodeJs, FaJsSquare, FaReact, FaPython } from "react-icons/fa";
+import { FaGitAlt, FaNodeJs, FaJsSquare, FaReact, FaPython } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 
 const TecnologiesCard = () => {
     return (
@@ -18,10 +19,10 @@ const TecnologiesCard = () => {
                 <div className='divider' />
                 <div className='flex justify-center flex-wrap gap-3 p-6'>
                     <a href='https://nodejs.org/en'>
-                        <FaNodeJs className='size-8 hover:scale-125 cursor-pointer hover:text-green-800' />
+                        <FaNodeJs className='size-8 hover:scale-125 cursor-pointer hover:text-green-700' />
                     </a>
                     <a href='https://tailwindcss.com/'>
-                        <FaCss3Alt className='size-8 hover:scale-125 cursor-pointer hover:text-blue-500' />
+                        <SiTailwindcss className='size-8 hover:scale-125 cursor-pointer hover:text-blue-400' />
                     </a>
                     <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'>
                         <FaJsSquare className='size-8 hover:scale-125 cursor-pointer hover:text-yellow-500' />

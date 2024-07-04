@@ -1,4 +1,4 @@
-import SideBar from "./Components/SideBar"
+import SideBar from "./Components/SideBar/SideBar"
 import AppRouter from "./Pages/AppRouter"
 
 function App() {
