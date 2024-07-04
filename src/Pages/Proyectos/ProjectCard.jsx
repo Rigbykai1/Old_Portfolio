@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ModalCard from './ModalCard';
 
 const ProjectCard = (props) => {
-    const { bgImage1, bgImage2, title, description, link, ButtonText, id } = props;
+    const { bgImage1, bgImage2, title, description, link, ButtonText, id, index } = props;
     const [currentImage, setCurrentImage] = useState(bgImage1);
 
     useEffect(() => {
@@ -14,12 +14,12 @@ const ProjectCard = (props) => {
 
     return (
         <>
-            <div className="card sd:card-side bg-black/40 shadow-xl">
+            <div className={`card sd:card-side bg-black/40 shadow-xl animate-fade animate-once animate-duration-1000 animate-delay-${index * 100} animate-normal`} >
                 <figure onClick={() => document.getElementById(id).showModal()} className='p-4'>
                     <img
                         className='rounded-xl cursor-pointer hover:scale-95'
                         src={currentImage}
-                        alt="Movie"
+                        alt="Image"
                     />
                 </figure>
 

@@ -1,4 +1,4 @@
-import ProyectoPage from "../ProyectoPage";
+import ProyectoPage from "../ProyectoTemplate/ProyectoPage";
 import { FaPython } from "react-icons/fa";
 const CryptWord = () => {
     const funcionalidades = {
@@ -21,7 +21,7 @@ const CryptWord = () => {
     }
 
     const proyectoInfo = {
-        titulo: 'Notas TailWind',
+        titulo: 'CryptWord',
         imageUrl: '/src/Sources/CryptWord/CmdShot.jpg',
         sourceLink: '/src/Sources/Downloads/CryptWord.zip',
         gitHubLink: 'https://github.com/Rigbykai1/CryptWord',

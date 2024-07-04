@@ -5,6 +5,7 @@ import Proyectos from "./Proyectos/Proyectos";
 import Home from "./Home/Home";
 import CryptWord from "./Proyectos/CryptWord/CryptWord";
 import NotesApp from "./Proyectos/NotesApp/NotesApp";
+import ImageCompresor from "./Proyectos/ImageCompresor/ImageCompresor";
 
 const AppRouter = () => {
     return (
@@ -16,6 +17,7 @@ const AppRouter = () => {
             <Route path="/Home" element={<Home />} />
             <Route path="/CryptWord" element={<CryptWord />} />
             <Route path="/NotesApp" element={<NotesApp />} />
+            <Route path="/ImageCompresor" element={<ImageCompresor />} />
         </Routes>
     );
 };

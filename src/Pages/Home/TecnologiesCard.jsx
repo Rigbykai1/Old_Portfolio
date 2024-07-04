@@ -3,7 +3,7 @@ import { FaGitAlt, FaCss3Alt, FaNodeJs, FaJsSquare, FaReact, FaPython } from "re
 
 const TecnologiesCard = () => {
     return (
-        <div className='bg-black/20 rounded-lg p-6 h-full w-fit hover:scale-105'>
+        <div className='bg-black/20 rounded-lg p-6 h-full w-fit hover:scale-105 animate-fade animate-once animate-duration-200 animate-delay-200 animate-normal'>
             <h1 className='text-3xl py-3 font-bold text-emerald-400'>Tecnologías</h1>
             <div className="mockup-code">
                 <pre data-prefix="$"><code>Node Js</code></pre>

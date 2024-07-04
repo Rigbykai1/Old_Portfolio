@@ -14,7 +14,6 @@ const ModalCard = (props) => {
     };
 
     return (
-
         <dialog id={id} className="modal backdrop-blur-lg">
             <div className="modal-box w-11/12 max-w-2xl bg-black/50 p-2">
                 <div className="carousel rounded-xl">

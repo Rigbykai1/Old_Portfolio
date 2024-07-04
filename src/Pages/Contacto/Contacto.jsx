@@ -5,10 +5,10 @@ const Contacto = () => {
         <>
             <div className="flex flex-col items-center">
                 <div className="text-center">
-                    <h1 className="text-5xl lg:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-rose-700 to-rose-300 py-3">Contáctame!</h1>
-                    <p className="py-6 sm:text-2xl font-thin">Estoy emocionado por iniciar nuevos proyectos!</p>
+                    <h1 className="text-5xl lg:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-rose-700 to-rose-300 py-3 animate-fade-down animate-once animate-duration-200 animate-delay-200 animate-normal">Contáctame!</h1>
+                    <p className="py-6 sm:text-2xl font-thin animate-fade animate-once animate-duration-200 animate-delay-200 animate-normal">Estoy emocionado por iniciar nuevos proyectos!</p>
                 </div>
-                <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-black/50 scale-105 text-white">
+                <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-black/50 scale-105 text-white animate-fade-up animate-once animate-duration-200 animate-delay-200 animate-normal">
                     <form className="card-body">
                         <div className="form-control">
                             <label className="input input-bordered flex items-center gap-2 bg-transparent">

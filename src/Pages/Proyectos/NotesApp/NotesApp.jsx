@@ -1,4 +1,4 @@
-import ProyectoPage from "../ProyectoPage";
+import ProyectoPage from "../ProyectoTemplate/ProyectoPage";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb, SiExpress, SiReactrouter } from "react-icons/si";
