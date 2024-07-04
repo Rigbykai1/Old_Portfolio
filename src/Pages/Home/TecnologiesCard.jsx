@@ -18,25 +18,25 @@ const TecnologiesCard = () => {
                 <div className='divider' />
                 <div className='flex justify-center flex-wrap gap-3 p-6'>
                     <a href='https://nodejs.org/en'>
-                        <FaNodeJs className='size-8 hover:scale-125 cursor-pointer' />
+                        <FaNodeJs className='size-8 hover:scale-125 cursor-pointer hover:text-green-800' />
                     </a>
                     <a href='https://tailwindcss.com/'>
-                        <FaCss3Alt className='size-8 hover:scale-125 cursor-pointer' />
+                        <FaCss3Alt className='size-8 hover:scale-125 cursor-pointer hover:text-blue-500' />
                     </a>
                     <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'>
-                        <FaJsSquare className='size-8 hover:scale-125 cursor-pointer' />
+                        <FaJsSquare className='size-8 hover:scale-125 cursor-pointer hover:text-yellow-500' />
                     </a>
                     <a href='https://cplusplus.com/doc/tutorial/'>
-                        <SiCplusplus className='size-8 hover:scale-125 cursor-pointer' />
+                        <SiCplusplus className='size-8 hover:scale-125 cursor-pointer hover:text-blue-500' />
                     </a>
                     <a href='https://www.python.org/'>
-                        <FaPython className='size-8 hover:scale-125 cursor-pointer' />
+                        <FaPython className='size-8 hover:scale-125 cursor-pointer hover:text-yellow-500' />
                     </a>
                     <a href='https://git-scm.com/'>
-                        <FaGitAlt className='size-8 hover:scale-125 cursor-pointer' />
+                        <FaGitAlt className='size-8 hover:scale-125 cursor-pointer hover:text-orange-600' />
                     </a>
                     <a href='https://react.dev/'>
-                        <FaReact className='size-8 hover:scale-125 cursor-pointer' />
+                        <FaReact className='size-8 hover:scale-125 cursor-pointer hover:text-cyan-500' />
                     </a>
                 </div>
             </div>
