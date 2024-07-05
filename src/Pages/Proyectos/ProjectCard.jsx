@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from "react-router-dom"
 import ModalCard from './ModalCard';
 
 const ProjectCard = (props) => {
@@ -27,7 +28,7 @@ const ProjectCard = (props) => {
                     <h2 className="card-title">{title}</h2>
                     <p>{description}</p>
                     <div className="card-actions justify-end">
-                        <a className="btn btn-success hover:scale-110" href={link}>{ButtonText}</a>
+                        <Link className="btn btn-success hover:scale-110" to={link}>{ButtonText}</Link>
                     </div>
                 </div>
             </div>
