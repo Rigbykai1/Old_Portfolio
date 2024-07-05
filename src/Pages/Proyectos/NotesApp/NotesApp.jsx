@@ -24,7 +24,7 @@ const NotesApp = () => {
 
     const proyectoInfo = {
         titulo: 'Notas TailWind',
-        imageUrl: '/src/Sources/NotesApp/Muckup1.jpg',
+        imageUrl: 'https://raw.githubusercontent.com/Rigbykai1/Portfolio/master/src/Sources/NotesApp/Muckup1.jpg',
         sourceLink: '',
         gitHubLink: 'https://github.com/Rigbykai1/NotasTailWind',
         youtubeLink: '',

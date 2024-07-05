@@ -6,7 +6,7 @@ import SideBar from "../Components/SideBar/SideBar"
 const AppLayout = () => {
     return (
         <div className="min-h-screen flex flex-col md:flex-row overflow-auto p-2 gap-2 items-center" style={{
-            backgroundImage: 'url(/src/Sources/Backgrounds/japaneseBackGround.jpg)',
+            backgroundImage: 'url(https://raw.githubusercontent.com/Rigbykai1/Portfolio/master/src/Sources/Backgrounds/japaneseBackGround.jpg)',
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
         }}>

@@ -27,8 +27,8 @@ const ImageCompresor = () => {
     }
     const proyectoInfo = {
         titulo: 'Notas TailWind',
-        imageUrl: '/src/Sources/ImageCompresor/CLIShot.jpg',
-        sourceLink: '/src/Sources/Downloads/ImageCompresor.zip',
+        imageUrl: 'https://raw.githubusercontent.com/Rigbykai1/Portfolio/master/src/Sources/ImageCompresor/CLIShot.jpg',
+        sourceLink: 'https://github.com/Rigbykai1/Portfolio/blob/3beb2fbd6629e8f27f4fa3bfc1a013ab768b81be/src/Sources/Downloads/ImageCompresor.zip',
         gitHubLink: 'https://github.com/Rigbykai1/ImageCompresor',
         youtubeLink: '',
         primerParrafo: 'Esta aplicación de compresión de imágenes es ideal para aquellos que necesitan gestionar grandes cantidades de imágenes, como fotógrafos, diseñadores web y desarrolladores. Permite comprimir imágenes en formato PNG o JPEG, reduciendo su tamaño sin comprometer significativamente la calidad visual. Gracias a la flexibilidad de Python y la poderosa biblioteca PIL, la aplicación ofrece una solución rápida y eficiente para optimizar imágenes.',
