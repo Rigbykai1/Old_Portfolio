@@ -17,7 +17,7 @@ const MobileBar = () => {
                     <SiAboutdotme className="w-26" />
                 </Link></button>
                 <button>
-                    <Link to="/Home">
+                    <Link to="/">
                         <div className="avatar">
                             <div className="w-10 rounded-full">
                                 <img src="https://avatars.githubusercontent.com/u/129445798?v=4" />
