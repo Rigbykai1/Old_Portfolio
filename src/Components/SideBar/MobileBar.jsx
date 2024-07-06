@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const MobileBar = () => {
     return (
         <div className="fixed bottom-0 left-0 right-0 bg-white/10 py-2 backdrop-blur-lg z-10 md:hidden">
-            <div className="flex justify-around">
+            <div className="flex justify-around text-white">
                 <button><Link to="/Contacto">
                     <MdContactMail className="w-26" />
                 </Link></button>

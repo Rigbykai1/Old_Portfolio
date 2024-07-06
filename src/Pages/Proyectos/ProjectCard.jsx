@@ -15,7 +15,7 @@ const ProjectCard = (props) => {
 
     return (
         <>
-            <div className={`card sd:card-side bg-black/40 shadow-xl animate-fade animate-once animate-duration-1000 animate-delay-${index * 100} animate-normal`} >
+            <div className={`card sd:card-side bg-black/40 shadow-xl animate-fade animate-once animate-duration-1000 animate-delay-${index * 100} animate-normal text-white`} >
                 <figure onClick={() => document.getElementById(id).showModal()} className='p-4'>
                     <img
                         className='rounded-xl cursor-pointer hover:scale-95'

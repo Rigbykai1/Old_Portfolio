@@ -10,7 +10,7 @@ const TimeLineItem = (props) => {
             <div className={`timeline-${position} md:text-end mb-10 bg-black/60 p-3 rounded-lg hover:scale-95`}>
                 <time className="font-mono italic">{date}</time>
                 <div className="text-lg font-black">{title}</div>
-                {content}
+                <p className='text-white'>{content}</p>
             </div>
             <hr />
         </li>

@@ -10,7 +10,7 @@ const BigScreenBar = () => {
                             <img src="https://avatars.githubusercontent.com/u/129445798?v=4" />
                         </div>
                     </div>
-                    <h1 className="text-4xl font-thin text-center">Jonathan Aragón</h1>
+                    <h1 className="text-4xl font-thin text-center text-white">Jonathan Aragón</h1>
                 </Link>
                 <div className="mockup-code bg-black/30 text-white hover:scale-95 animate-fade animate-once animate-duration-600 animate-delay-300 animate-ease-in-out">
                     <pre data-prefix="0"><code>while True:</code></pre>
@@ -22,9 +22,9 @@ const BigScreenBar = () => {
             </div>
             <div className='divider' />
             <div className='flex flex-col gap-2 p-3'>
-                <Link className="btn btn-outline hover:scale-105 animate-fade-right animate-once animate-duration-300 animate-delay-300 animate-ease-in-out" to='/SobreMi'>Sobre mí</Link>
-                <Link className="btn btn-outline hover:scale-105 animate-fade-right animate-once animate-duration-400 animate-delay-400 animate-ease-in-out" to='/Contacto'>Contacto</Link>
-                <Link className="btn btn-outline glass hover:scale-105 animate-fade-right animate-once animate-duration-500 animate-delay-500 animate-ease-in-out" to='/Proyectos'>Proyectos</Link>
+                <Link className="btn btn-outline hover:scale-105 animate-fade-right animate-once animate-duration-300 animate-delay-300 animate-ease-in-out text-white" to='/SobreMi'>Sobre mí</Link>
+                <Link className="btn btn-outline hover:scale-105 animate-fade-right animate-once animate-duration-400 animate-delay-400 animate-ease-in-out text-white" to='/Contacto'>Contacto</Link>
+                <Link className="btn btn-outline glass hover:scale-105 animate-fade-right animate-once animate-duration-500 animate-delay-500 animate-ease-in-out text-white" to='/Proyectos'>Proyectos</Link>
             </div>
             <div className='divider' />
         </div>
