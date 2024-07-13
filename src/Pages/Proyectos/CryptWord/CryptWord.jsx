@@ -25,7 +25,7 @@ const CryptWord = () => {
         imageUrl: 'https://raw.githubusercontent.com/Rigbykai1/Portfolio/master/src/Sources/CryptWord/CmdShot.jpg',
         sourceLink: 'https://github.com/Rigbykai1/Portfolio/blob/3beb2fbd6629e8f27f4fa3bfc1a013ab768b81be/src/Sources/Downloads/CryptWord.zip',
         gitHubLink: 'https://github.com/Rigbykai1/CryptWord',
-        youtubeLink: 'https://youtu.be/fBv0Y4DE5Ow',
+        youtubeLink: 'https://www.youtube.com/mUpBkaswA4I',
         primerParrafo: 'Este proyecto es una aplicación sencilla que permite cifrar y descifrar contraseñas usando un PIN. Utiliza técnicas avanzadas de criptografía para asegurar que tus contraseñas permanezcan protegidas.',
         segundoParrafo: 'Este proyecto es ideal para aquellos interesados en aprender sobre criptografía y seguridad informática. Explora cómo proteger tus datos personales con técnicas de cifrado modernas.',
     }
