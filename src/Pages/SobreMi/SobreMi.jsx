@@ -25,13 +25,13 @@ const SobreMi = () => {
             position: "end",
             date: "2022",
             title: "Ingeniería en sistemas",
-            content: "En este año llevé un curso de fundamentos de programación con lo cuál tuve que aprender C++, si bien no profundizamos mucho en el lenguaje me permitió aprender sobre arreglos, matrices, objetos, clases, entre otras cosas que son necesarias en distintos lenguajes de programación. A partir de este año mew introduje por completo en el mundo de la programación.",
+            content: "En este año llevé un curso de fundamentos de programación con lo cuál tuve que aprender C++, si bien no profundizamos mucho en el lenguaje me permitió aprender sobre arreglos, matrices, objetos, clases, entre otras cosas que son necesarias en distintos lenguajes de programación. A partir de este año me introduje por completo en el mundo de la programación.",
         },
         timeLineItem5: {
             position: "start",
             date: "2023",
             title: "Desestor",
-            content: "Aquí fue cuando me fue mal en matemáticas, por lo que tuve que suspender la carrera, con lo cuál me dediqué a aprender tecnologías. Entre estas a la que más le dedique horas de estudio y práctica fue React, aprendí las bases de Python también. Con estos conocimientos me adentré al desarrollo web, realizando distintas aplicaciones, imcompletas, pero que me ayudaron a entender conceptos que se abarcan a la hora de programar una aplicación web.",
+            content: "Aquí fue cuando me fue mal en matemáticas, por lo que tuve que suspender la carrera, con lo cuál me dediqué a aprender tecnologías. Entre estas a la que más le dedique horas de estudio y práctica fue React, aprendí las bases de Python también. Con estos conocimientos me adentré al desarrollo web, realizando distintas aplicaciones, incompletas, pero que me ayudaron a entender conceptos que se abarcan a la hora de programar una aplicación web.",
         },
     }
     return (
