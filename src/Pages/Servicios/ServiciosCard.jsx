@@ -3,9 +3,9 @@ import { FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 const ServiciosCard = (props) => {
-    const { servicio } = props
+    const { servicio, index } = props
     return (
-        <div className='bg-black/50 max-w-sm px-3 py-4 rounded-lg h-full'>
+        <div className={`bg-black/50 max-w-sm px-3 py-4 rounded-lg h-full animate-fade animate-once animate-duration-1000 animate-delay-${index * 100} animate-normal`}>
             <h1 className='pt-2 pb-6 text-3xl font-bold text-rose-300'>{servicio.titulo}</h1>
             <figure>
                 <img className='rounded-lg hover:scale-95' src={servicio.imagen} alt="Placeholder" />

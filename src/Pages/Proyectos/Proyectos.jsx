@@ -1,11 +1,12 @@
 import ProjectCard from './ProjectCard'
+import ghUrl from '../../utils/ghrul'
 
 const Proyectos = () => {
     const cardsInfo = {
         Card1: {
             id: 'NotesApp',
-            bgImage1: 'https://raw.githubusercontent.com/Rigbykai1/Portfolio/master/src/Sources/NotesApp/Muckup1.jpg',
-            bgImage2: 'https://raw.githubusercontent.com/Rigbykai1/Portfolio/master/src/Sources/NotesApp/Muckup3.jpg',
+            bgImage1: ghUrl("/src/Sources/NotesApp/Muckup1.jpg"),
+            bgImage2: ghUrl("/src/Sources/NotesApp/Muckup3.jpg"),
             title: 'Notes App',
             description: 'App de notas creada con React y mongo DB',
             link: '/NotesApp',
@@ -13,8 +14,8 @@ const Proyectos = () => {
         },
         Card2: {
             id: 'CryptWord',
-            bgImage1: 'https://raw.githubusercontent.com/Rigbykai1/Portfolio/master/src/Sources/CryptWord/VisualShot.jpg',
-            bgImage2: 'https://raw.githubusercontent.com/Rigbykai1/Portfolio/master/src/Sources/CryptWord/CmdShot.jpg',
+            bgImage1: ghUrl("/src/Sources/CryptWord/VisualShot.jpg"),
+            bgImage2: ghUrl("/src/Sources/CryptWord/CmdShot.jpg"),
             title: 'CryptWord',
             description: 'Script para encriptar contraseñas realizado con Python.',
             link: '/CryptWord',
@@ -22,8 +23,8 @@ const Proyectos = () => {
         },
         Card3: {
             id: 'ImageCompresor',
-            bgImage1: 'https://raw.githubusercontent.com/Rigbykai1/Portfolio/master/src/Sources/ImageCompresor/CLIShot.jpg',
-            bgImage2: 'https://raw.githubusercontent.com/Rigbykai1/Portfolio/master/src/Sources/ImageCompresor/Comparison.jpg',
+            bgImage1: ghUrl("/src/Sources/ImageCompresor/CLIShot.jpg"),
+            bgImage2: ghUrl("/src/Sources/ImageCompresor/Comparison.jpg"),
             title: 'Image Compresor',
             description: 'Script para comprimir imágenes en formato PNG y JPEG.',
             link: '/ImageCompresor',
