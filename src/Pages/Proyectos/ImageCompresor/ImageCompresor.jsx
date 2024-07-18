@@ -26,11 +26,11 @@ const ImageCompresor = () => {
         },
     }
     const proyectoInfo = {
-        titulo: 'Notas TailWind',
+        titulo: 'Image compresor',
         imageUrl: 'https://raw.githubusercontent.com/Rigbykai1/Portfolio/master/src/Sources/ImageCompresor/CLIShot.jpg',
         sourceLink: 'https://github.com/Rigbykai1/Portfolio/blob/3beb2fbd6629e8f27f4fa3bfc1a013ab768b81be/src/Sources/Downloads/ImageCompresor.zip',
         gitHubLink: 'https://github.com/Rigbykai1/ImageCompresor',
-        youtubeLink: '',
+        youtubeLink: 'https://youtu.be/EH5Q1F9WCQQ',
         primerParrafo: 'Esta aplicación de compresión de imágenes es ideal para aquellos que necesitan gestionar grandes cantidades de imágenes, como fotógrafos, diseñadores web y desarrolladores. Permite comprimir imágenes en formato PNG o JPEG, reduciendo su tamaño sin comprometer significativamente la calidad visual. Gracias a la flexibilidad de Python y la poderosa biblioteca PIL, la aplicación ofrece una solución rápida y eficiente para optimizar imágenes.',
         segundoParrafo: 'Durante el desarrollo de este proyecto, se adquirieron conocimientos valiosos sobre manipulación de imágenes en Python, manejo de archivos y optimización de almacenamiento. Este proyecto es un excelente ejemplo de cómo las bibliotecas de Python pueden facilitar la creación de herramientas prácticas y efectivas para el manejo de datos multimedia.',
     }
