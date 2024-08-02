@@ -28,7 +28,7 @@ const PasswordGen = () => {
     const proyectoInfo = {
         titulo: 'Password Gen',
         imageUrl: 'https://raw.githubusercontent.com/Rigbykai1/Portfolio/master/src/Sources/PasswordGen/shot1.jpg',
-        sourceLink: 'https://raw.githubusercontent.com/Rigbykai1/Portfolio/master/src/Sources/Downloads/PasswordGen.zip',
+        sourceLink: 'https://github.com/Rigbykai1/Portfolio/blob/master/src/Sources/Downloads/PasswordGen.zip',
         gitHubLink: 'https://github.com/Rigbykai1/PasswordGen',
         youtubeLink: '',
         primerParrafo: 'Quise realizar este script para crear contraseñas aleatorias con determinada longitud para la creación de mis contraseñas seguras.',
