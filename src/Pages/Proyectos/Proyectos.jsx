@@ -30,6 +30,15 @@ const Proyectos = () => {
             link: '/ImageCompresor',
             ButtonText: 'Ver proyecto'
         },
+        Card4: {
+            id: 'PasswordGen',
+            bgImage1: ghUrl("/src/Sources/PasswordGen/shot1.jpg"),
+            bgImage2: ghUrl("/src/Sources/PasswordGen/shot2.jpg"),
+            title: 'Password Gen',
+            description: 'Script para crear contraseñas utilizando librerìas preinstaladas de Python.',
+            link: '/PasswordGen',
+            ButtonText: 'Ver proyecto'
+        },
     }
 
     return (

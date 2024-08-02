@@ -6,17 +6,24 @@ const MobileBar = () => {
     return (
         <div className="fixed bottom-0 left-0 right-0 bg-white/10 py-2 backdrop-blur-lg z-10 md:hidden">
             <div className="flex justify-around text-white">
-                <button><Link to="/Contacto">
+                <button><Link to="/Contacto" className="flex flex-col items-center">
                     <MdContactMail className="size-6" />
-                </Link></button>
-                <button><Link to="/Proyectos">
+                    <span className="text-center">Contacto</span>
+                </Link>
+                </button>
+
+                <button><Link to="/Proyectos" className="flex flex-col items-center">
                     <GrProjects className="size-6" />
+                    <span className="text-center">Proyectos</span>
+
                 </Link></button>
-                <button><Link to="/Servicios">
+                <button><Link to="/Servicios" className="flex flex-col items-center">
                     <MdHomeRepairService className="size-6" />
+                    <span className="text-center">Servicios</span>
+
                 </Link></button>
                 <button>
-                    <Link to="/">
+                    <Link to="/" className="flex flex-col items-center">
                         <div className="avatar">
                             <div className="size-10 rounded-full">
                                 <img src="https://avatars.githubusercontent.com/u/129445798?v=4" />
