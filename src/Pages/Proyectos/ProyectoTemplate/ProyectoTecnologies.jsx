@@ -3,7 +3,7 @@ import React from 'react'
 const ProyectoTecnologies = (props) => {
     const { tecnologias } = props;
     return (
-        <div className="bg-black/70 rounded-lg p-4 space-y-3 h-full w-3/4 lg:w-auto">
+        <div className="flex flex-col bg-black/70 rounded-lg px-8 py-12 space-y-3 h-full grow self-center place-items-center">
             <h1 className="text-2xl font-bold text-center text-white xl">Tecnologías</h1>
             {Object.values(tecnologias).map((tecnologia, index) => (
                 <div key={index} className={`flex items-center space-x-2 ${tecnologia.color} hover:scale-105`}>

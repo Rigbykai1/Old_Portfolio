@@ -31,7 +31,6 @@ const CryptWord = () => {
     }
     const tecnologias = {
         tecnologia1: { titulo: 'Python', icono: <FaPython className="size-8" />, color: "hover:text-yellow-400", href: "https://www.python.org/" },
-
     }
     return (
         <>
