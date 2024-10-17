@@ -3,21 +3,26 @@ import { FaPython } from "react-icons/fa";
 const CryptWord = () => {
     const funcionalidades = {
         funcionalidad1: {
-            titulo: 'Cifrado seguro',
-            descripcion: 'Emplea el algoritmo AES con un vector de inicialización (IV) para proteger la información.'
+            titulo: 'Cifrado AES con Derivación de Clave PBKDF2',
+            descripcion: 'Utiliza el algoritmo AES en modo CBC, derivando la clave mediante PBKDF2 para mayor seguridad, con una sal única y múltiples iteraciones.'
         },
         funcionalidad2: {
-            titulo: 'Interfaz de Línea de Comandos',
-            descripcion: 'Interactúa fácilmente ingresando tu contraseña y un PIN para el cifrado.'
+            titulo: 'Interfaz de Línea de Comandos Mejorada',
+            descripcion: 'Interactúa mediante un menú de opciones que permite encriptar y desencriptar contraseñas con facilidad, ingresando una contraseña y un PIN de manera sencilla.'
         },
         funcionalidad3: {
-            titulo: 'Portapapeles Temporizado',
-            descripcion: 'Las contraseñas se copian al portapapeles y se borran automáticamente después de unos segundos, aumentando la seguridad.'
+            titulo: 'Integridad mediante HMAC',
+            descripcion: 'Incorpora HMAC basado en SHA-256 para asegurar la integridad de los datos cifrados, verificando que no han sido modificados antes de ser desencriptados.'
         },
         funcionalidad4: {
-            titulo: 'Verificación del PIN',
-            descripcion: 'Se solicita al usuario confirmar su PIN para evitar errores durante el cifrado.'
+            titulo: 'Verificación y Manejo de Errores Mejorado',
+            descripcion: 'Se verifica la autenticidad de los datos cifrados y se maneja la validación del PIN de forma robusta, lanzando advertencias en caso de PIN incorrecto o datos alterados.'
         },
+        funcionalidad5: {
+            titulo: 'Generación de Sal y IV Aleatorios',
+            descripcion: 'Cada vez que se encripta una contraseña, se generan de manera segura una sal y un IV aleatorios, lo que aumenta la resistencia contra ataques de diccionario y rainbow tables.'
+        }
+
     }
 
     const proyectoInfo = {

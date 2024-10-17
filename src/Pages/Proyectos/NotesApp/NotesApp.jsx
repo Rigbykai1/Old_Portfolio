@@ -25,9 +25,9 @@ const NotesApp = () => {
     const proyectoInfo = {
         titulo: 'Notas TailWind',
         imageUrl: 'https://raw.githubusercontent.com/Rigbykai1/Portfolio/master/src/Sources/NotesApp/Muckup1.jpg',
-        sourceLink: '',
+        sourceLink: 'https://github.com/Rigbykai1/NotasTailWind',
         gitHubLink: 'https://github.com/Rigbykai1/NotasTailWind',
-        youtubeLink: '',
+        youtubeLink: 'https://www.youtube.com/@Rigbykai1',
         primerParrafo: 'Esta aplicación, desarrollada en React como parte del curso Full Stack Open, ha sido adaptada con estilos de Tailwind y mejorada con funcionalidades adicionales no incluidas en el proyecto original.',
         segundoParrafo: 'Fue un excelente proyecto donde aprendí a manejar código con bases de datos, específicamente usando MongoDB. También adquirí conocimientos valiosos sobre cómo realizar peticiones a la base de datos, habilidades esenciales para resolver problemas y mejorar la vida cotidiana.',
     }

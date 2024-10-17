@@ -28,14 +28,6 @@ const Proyectos = () => {
             link: '/ImageCompresor',
             ButtonText: 'Ver proyecto'
         },
-        Card4: {
-            bgImage1: ghUrl("/src/Sources/PasswordGen/shot1.jpg"),
-            bgImage2: ghUrl("/src/Sources/PasswordGen/shot2.jpg"),
-            title: 'Password Gen',
-            description: 'Script para crear contraseñas utilizando librerìas preinstaladas de Python.',
-            link: '/PasswordGen',
-            ButtonText: 'Ver proyecto'
-        },
     }
     const actions = (href, text) => (<Link className="btn btn-success hover:scale-110" to={href}>{text}</Link>)
 

@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import Home from './Pages/Home/Home.jsx';
-import SobreMi from './Pages/SobreMi/SobreMi.jsx';
 import Proyectos from './Pages/Proyectos/Proyectos.jsx';
 import Contacto from './Pages/Contacto/Contacto.jsx';
 import AppLayout from './Pages/AppLayout.jsx';
@@ -11,7 +10,6 @@ import NotesApp from './Pages/Proyectos/NotesApp/NotesApp.jsx';
 import CryptWord from './Pages/Proyectos/CryptWord/CryptWord.jsx';
 import ImageCompresor from './Pages/Proyectos/ImageCompresor/ImageCompresor.jsx';
 import Servicios from './Pages/Servicios/Servicios.jsx';
-import PasswordGen from './Pages/Proyectos/PasswordGen/PasswordGen.jsx'
 
 const router = createHashRouter([
   {
@@ -21,10 +19,6 @@ const router = createHashRouter([
       {
         path: "/",
         element: <Home />,
-      },
-      {
-        path: "/SobreMi",
-        element: <SobreMi />,
       },
       {
         path: "/Servicios",
@@ -50,10 +44,6 @@ const router = createHashRouter([
         path: "/ImageCompresor",
         element: <ImageCompresor />,
       },
-      {
-        path: "/PasswordGen",
-        element: <PasswordGen />,
-      }
     ]
   }
 ]);

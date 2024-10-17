@@ -10,7 +10,7 @@ const AppLayout = () => {
             backgroundRepeat: "no-repeat",
         }}>
             <SideBar />
-            <div className='w-full h-[88vh] mb-12 p-4 bg-white/10 rounded-xl backdrop-blur-sm md:h-[97vh] overflow-y-auto md:p-4 md:m-auto'>
+            <div className='w-full h-full mb-20 p-4 bg-white/10 rounded-xl backdrop-blur-sm md:h-[97vh] overflow-y-auto md:p-4 md:m-auto'>
                 <Outlet />
             </div>
         </div>
