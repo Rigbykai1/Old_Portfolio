@@ -9,6 +9,7 @@ import AppLayout from './Pages/AppLayout.jsx';
 import NotesApp from './Pages/Proyectos/NotesApp/NotesApp.jsx';
 import CryptWord from './Pages/Proyectos/CryptWord/CryptWord.jsx';
 import ImageCompresor from './Pages/Proyectos/ImageCompresor/ImageCompresor.jsx';
+import LogMaster from './Pages/Proyectos/LogMaster/LogMaster.jsx';
 import Servicios from './Pages/Servicios/Servicios.jsx';
 
 const router = createHashRouter([
@@ -43,6 +44,9 @@ const router = createHashRouter([
       {
         path: "/ImageCompresor",
         element: <ImageCompresor />,
+      },{
+        path: "/LogMaster",
+        element: <LogMaster />,
       },
     ]
   }

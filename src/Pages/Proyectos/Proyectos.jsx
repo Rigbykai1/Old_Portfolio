@@ -5,28 +5,36 @@ import { Link } from 'react-router-dom'
 const Proyectos = () => {
     const projectsInfo = {
         Card1: {
-            bgImage1: ghUrl("/src/Sources/NotesApp/Muckup1.jpg"),
-            bgImage2: ghUrl("/src/Sources/NotesApp/Muckup3.jpg"),
+            Image1: ghUrl("/src/Sources/NotesApp/Muckup1.jpg"),
+            Image2: ghUrl("/src/Sources/NotesApp/Muckup3.jpg"),
             title: 'Notes App',
             description: 'App de notas creada con React y mongo DB',
             link: '/NotesApp',
-            ButtonText: 'Ver proyecto'
+            action: 'Ver proyecto'
         },
         Card2: {
-            bgImage1: ghUrl("/src/Sources/CryptWord/VisualShot.jpg"),
-            bgImage2: ghUrl("/src/Sources/CryptWord/CmdShot.jpg"),
+            Image1: ghUrl("/src/Sources/CryptWord/VisualShot.jpg"),
+            Image2: ghUrl("/src/Sources/CryptWord/CmdShot.jpg"),
             title: 'CryptWord',
             description: 'Script para encriptar contraseñas realizado con Python.',
             link: '/CryptWord',
-            ButtonText: 'Ver proyecto'
+            action: 'Ver proyecto'
         },
         Card3: {
-            bgImage1: ghUrl("/src/Sources/ImageCompresor/CLIShot.jpg"),
-            bgImage2: ghUrl("/src/Sources/ImageCompresor/Comparison.jpg"),
+            Image1: ghUrl("/src/Sources/ImageCompresor/CLIShot.jpg"),
+            Image2: ghUrl("/src/Sources/ImageCompresor/Comparison.jpg"),
             title: 'Image Compresor',
             description: 'Script para comprimir imágenes en formato PNG y JPEG.',
             link: '/ImageCompresor',
-            ButtonText: 'Ver proyecto'
+            action: 'Ver proyecto'
+        },
+        Card4: {
+            Image1: ghUrl("/src/Sources/LogMaster/shot1.jpg"),
+            Image2: ghUrl("/src/Sources/LogMaster/shot2.jpg"),
+            title: 'Log Master',
+            description: 'Script spyware para probar vulnerabilidad de Windows.',
+            link: '/LogMaster',
+            action: 'Ver proyecto'
         },
     }
     const actions = (href, text) => (<Link className="btn btn-success hover:scale-110" to={href}>{text}</Link>)
@@ -38,10 +46,11 @@ const Proyectos = () => {
                 {Object.values(projectsInfo).map((projectInfo, index) => (
                     <ProductCard
                         key={index}
-                        productInfo={projectInfo}
+                        title={projectInfo.title}
+                        description={projectInfo.description}
+                        images={[projectInfo.Image1, projectInfo.Image2]}
                         index={index}
-                        images={[projectInfo.bgImage1, projectInfo.bgImage2]}
-                        actions={actions(projectInfo.link, projectInfo.ButtonText)}
+                        actions={actions(projectInfo.link, projectInfo.action)}
                     />
                 ))}
             </div>

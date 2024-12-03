@@ -1,39 +1,20 @@
-import { useEffect, useState } from 'react';
 import ImagesCarrouselModal from '../Modals/ImagesCarrouselModal';
 
-const ProductCard = (props) => {
-    const { productInfo, index, images, actions } = props;
-
-    const [currentIndex, setCurrentIndex] = useState(0);
-    const id = String(productInfo.title + index);
-    const totalImages = images.length;
-
-    useEffect(() => {
-        const startDelay = index * 1000;
-        const imageInterval = setTimeout(() => {
-            setInterval(() => {
-                setCurrentIndex((prevIndex) => (prevIndex + 1) % totalImages);
-            }, 3000);
-        }, startDelay);
-
-        return () => {
-            clearTimeout(imageInterval);
-        };
-    }, [index, totalImages]);
-
+const ProductCard = ({title, description, images, index, actions}) => {
+    const id = String(title + index);
     return (
         <>
-            <div className={`card sd:card-side bg-black/40 shadow-xl animate-fade animate-once animate-duration-1000 animate-delay-${index * 100} animate-normal text-white`}>
+            <div className={`card sd:card-side bg-black/40 shadow-xl animate-fade animate-once animate-duration-1000 animate-delay-${index * 100} animate-normal text-white h-fit`}>
                 <figure onClick={() => document.getElementById(id).showModal()} className='p-4'>
                     <img
                         className='rounded-xl cursor-pointer hover:scale-95'
-                        src={images[currentIndex]}
-                        alt={"Proyecto " + index}
+                        src={images[0]}
+                        alt={images[0]}
                     />
                 </figure>
                 <div className="card-body">
-                    <h2 className="card-title">{productInfo.title}</h2>
-                    <p>{productInfo.description}</p>
+                    <h2 className="card-title">{title}</h2>
+                    <p>{description}</p>
                     <div className="card-actions justify-end">
                         {actions}
                     </div>

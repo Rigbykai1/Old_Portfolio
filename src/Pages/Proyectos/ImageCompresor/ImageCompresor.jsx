@@ -39,8 +39,14 @@ const ImageCompresor = () => {
     }
     return (
         <ProyectoPage
+            titulo={proyectoInfo.titulo}
+            imageUrl={proyectoInfo.imageUrl}
+            sourceLink={proyectoInfo.sourceLink}
+            gitHubLink={proyectoInfo.gitHubLink}
+            youtubeLink={proyectoInfo.youtubeLink}
+            primerParrafo={proyectoInfo.primerParrafo}
+            segundoParrafo={proyectoInfo.segundoParrafo}
             funcionalidades={funcionalidades}
-            proyectoInfo={proyectoInfo}
             tecnologias={tecnologias}
         />
     )

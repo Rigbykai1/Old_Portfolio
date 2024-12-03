@@ -46,9 +46,10 @@ const Servicios = () => {
                 {Object.values(servicios).map((servicio, index) => (
                     <ProductCard
                         key={index}
-                        productInfo={servicio}
-                        index={index}
+                        title={servicio.title}
+                        description={servicio.description}
                         images={[servicio.image]}
+                        index={index}
                         actions={<ServiciosActions />}
                     />
                 ))}
